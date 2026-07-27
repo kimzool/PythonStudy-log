@@ -102,3 +102,7 @@ num_filter = list(filter(lambda x : x % 3 == 0,num))
 # 맞지않으면 버림(제외) => filter
 # 결과를 list로 변경
 print(num_filter)
+
+point = [45,60,90,77,55]
+point_list = list(filter(lambda j : j>=70, point))
+print(point_list)
